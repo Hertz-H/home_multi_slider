@@ -1,0 +1,165 @@
+:root{
+   --main-blue:#3073d6;
+   --main-green:#1c6824;
+   --main-red:#d40b0e;
+   --secondary-red:#f71108;
+}
+
+body{
+   direction: rtl;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: Tajawal,sans-serif;
+   
+}
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+.container{
+   padding:0 15px;
+   margin:auto;
+   width:95%;
+
+}
+
+.cat-section{
+   width:305px;
+}
+.cat-section a{
+   text-decoration: none;
+   color:var(--main-blue);
+}
+.cate_body{
+   width:91%;
+  
+}
+
+.cate_body li{
+list-style: none;
+display: flex;
+justify-content: space-between;
+font-size: .8rem;
+
+}
+.cate_body .list_con {
+   list-style: none;
+  font-weight: bold;
+   border-bottom:1px solid #cfe3f7;
+   
+
+  
+ }
+ .cate_body .list_con  a ,i{
+    color:#636363;
+ }
+ .cate_body .list_con i{
+   font-size: .9rem;
+ }
+
+ .cate_body li+li{
+border-top:1px solid #cfe3f7;
+border-left:1px solid #cfe3f7;
+   border-right:1px solid #cfe3f7;
+ } 
+ .cate_body li:first-of-type{
+    background-color: #145c13;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 7px 9px;
+   
+ }
+ .cate_body li:first-of-type a{
+    color:white;
+ }
+ .cate_body li:nth-of-type(2),
+ .cate_body li:nth-of-type(3),
+ .cate_body li:nth-of-type(5){
+   padding:9px;
+    background-color: #edf6ff;
+ }
+ .range_cont{
+    flex-direction: column;
+    height: 65px;
+    padding: 20px 0px 10px 14px;
+    
+ }
+ .range{
+   position: relative;
+   height: 8px;
+   background-color: #808080d1;
+   width:100%;
+
+ }
+ .range:before{
+    content: "";
+    position: absolute;
+    top:-53%;
+    height: 16px;
+    width:16px;
+    background-color: var(--main-red);
+ }
+ .range:after{
+   content: "";
+   position: absolute;
+   top:-53%;
+   left: 0;
+   height: 16px;
+   width:16px;
+   background-color: var(--main-red);
+}
+.pric_con{
+   position: relative;
+   left:-9px ;
+   display: flex;
+   justify-content: space-between;
+   color:#948f8f;
+   font-weight: lighter;
+   
+}
+.cat_header .sperator{
+   margin:0 10px;
+   color:#80808057;
+}
+.cat_name{
+   padding:10px;
+   border: .5px solid  var(--main-green);
+   border-radius: 3px;
+   color:var(--main-green);
+   margin: 10px 0;
+}
+.cat_name i{
+   color:var(--main-green);
+}
+.title{
+   display: inline-block;
+   margin-right:5px;
+   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
